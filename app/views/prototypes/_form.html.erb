@@ -1,6 +1,6 @@
-<%= form_with model: prototype, local: true do |f|%>
+<%= form_with model: @prototype, local: true do |f|%>
   <div class="field">
-    <%= f.label :titlee, "プロトタイプの名称" %><br />
+    <%= f.label :title, "プロトタイプの名称" %><br />
     <%= f.text_field :title, id:"prototype_title" %>
   </div>
 
